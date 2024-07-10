@@ -1,0 +1,92 @@
+{
+    "home": {
+        "heading": "WELCOME TO PLATINUM STARS",
+        "subHeading": "Koester Briljansie, Een Klein Sterretjie op 'n Slag!",
+        "introParagraph": "Is jou kind gereed om te skyn? Sluit by ons aan by Platinum Stars Nursery School, waar ons 'n omgewing skep vir klein sterretjies om te skitter en te groei. Ons bied alles wat ouers kan vra van 'n warm gemeenskap tot 'n speelse en opvoedkundige kurrikulum. Begin 'n reis na briljansie saam met ons. Skryf jou kind vandag in, en aanskou die sielskos van leer en speel!",
+        "aboutButton": "ABOUT US",
+        "contactButton": "CONTACT US"
+    },
+    "about": {
+        "heading": "OOR ONS",
+        "aboutInfo": "By Platinum Stars, verander ons leer in 'n opwindende avontuur wat oorloop van vreugde. Ons koesterende omgewing moedig verkenning deur die sintuie, speel, en betowerende temasessies aan. Binne ons ruim klaskamers, lewendige buitestasie, en met ons voedingsryke etes, is ons ten volle toegewyd om 'n stewige grondslag te lê vir die groei en ontwikkeling van elke kind.",
+        "subHeadingTeachers": "Ervare Onderwysers",
+        "infoTeachers": "Ons ervare onderwysers en vaardige assistente, almal gesertifiseer in Eerste Hulp, prioriteer die veiligheid en genot van jou kind. Met 'n rykdom aan kundigheid, skep ons span 'n koesterende omgewing waar jou \"ster\" nie net floreer nie, maar ook die vreugde van leer ontdek.",
+        "subHeadingApproach": "Unieke Benadering",
+        "infoApproach": "Ons onderwysers bring 'n unieke aanraking na die onderwys. Hul benadering kombineer op maat gemaakte lesse met kreatiewe verkenning, wat nuuskierigheid en kritiese denke inspireer. Dit verseker dat elke kind nie net akademies uitblink nie, maar ook essensiële vaardighede vir 'n suksesvolle toekoms ontwikkel.",
+        "subHeadingAges": "Oudskrifte",
+        "infoAges": "Ons neem kinders vanaf 4 maande tot 5 jaar.",
+        "subHeadingEducation": "Ons Onderwys",
+        "infoEducation": "Ontdek die opwindende wêreld van leer by Platinum Stars Nursery School! Ons volg trots die ELDA-kurrikulum, wat verseker dat ons toegewyde onderwysers goed toegerus is met die nuutste opleiding om boeiende en verreikende lesse te lewer. Ons kurrikulum bied tema-gebaseerde leer, wat numeriese, grof motoriese vaardighede, fyn motoriese vaardighede, musiek en beweging, sowel as temasbesprekings en kreatiewe aktiwiteite dek. Elke week duik ons in boeiende temas soos Plaasdiere, Seelewens, Kleure, Vorms, Sintuie, en meer! Daarbenewens strek ons kurrikulum verder as die klaskamer met gereelde uitstappies en in-huis besoeke wat op die tematiese fokus aansluit, en sodoende 'n goed afgeronde en immersiewe opvoedkundige ervaring vir jou kind bied.",
+        "subHeadingActivities": "Ons Aktiwiteite",
+        "subHeadingVision": "Ons Visie",
+        "infoVision": "By Platinum Sterre, koester ons die waardes wat 'n diepgaande verskil maak in die lewens van ons kinders. Ons visie is om die pad van elke kind se reis te verlig deur hul unieke briljansie te koester, en te verseker dat elkeen so helder skyn soos 'n ster.",
+        "visionHeadingChild": "Kind-Gesentreerde Benadering",
+        "visionInfoChild": "Ons visie draai om die koestering van die individualiteit van elke kind, om hul aangebore potensiaal te erken, en ons benadering aan te pas om aan hul spesifieke behoeftes en aspirasies te voldoen. Ons mik om 'n omgewing te skep waar elke kind waardeer, verstaan, en bemagtig word om vir die sterre te reik. Veiligheid en Sekuriteit: Binne ons visie lê 'n toewyding tot die voorsiening van 'n veilige en beskermde hawe waar kinders kan floreer, verken, en ontdek sonder huiwering. Ons beskou 'n koesterende ruimte waar hul welstand beskerm word, sodat hul kan ontwikkel tot selfversekerde en veerkragtige individue.",
+        "visionHeadingExcellence": "Uitnemendheid in Opvoeding",
+        "visionInfoExcellence": "Kern tot ons visie is die nastrewing van uitnemendheid in opvoeding. Ons hoop om 'n passie vir leer, kreatiwiteit, en innovasie in elke kind aan te wakker, wat die grondslag lê vir akademiese prestasie en persoonlike vervulling. Ons doel is om 'n kultuur van nuuskierigheid en ontdekking te kweek wat lewenslange leer inspireer.",
+        "visionHeadingRespect": "Respek en Diversiteit",
+        "visionInfoRespect": "Binne ons visie vier ons diversiteit en kweek 'n atmosfeer van insluiting en respek. Ons beskou 'n lewendige gemeenskap waar kinders van alle agtergronde welkom voel, aanvaar, en gewaardeer word vir wie hulle is. Deur diversiteit te omhels, mik ons om empatie, begrip, en globale burgerskap in ons jong sterre te kweek. Deur ons onwrikbare toewyding aan hierdie waardes, beskou ons Platinum Sterre as 'n ligbaken, wat elke kind lei na 'n toekoms gevul met belofte, doel, en moontlikhede.",
+        "missionHeading": "Ons Missie",
+        "StarS": "Om te voorsien in KWALITEITSDIENS te alle tye",
+        "StarT": "Toegewyd aan ONDERWYS en die opvoeding van ons kinders tot die beste van ons vermoë",
+        "StarA": "ALTYD voorsien volledige sorg en ondersteuning",
+        "StarR": "Met LIEFDE uitreik deur voorbeeld",
+        "StarSE": "STREWE om 'n Christelike grondslag vir ons kinders se toekoms te bou.",
+        "socialCategories": {
+            "subHeadingKinder": "Kinderkinetika",
+            "infoKinder": "Energieke bewegings wat fisieke welstand en koördinasie bevorder.",
+            "items": [
+                {
+                    "name": "Kinderkinetika",
+                    "description": "Energieke bewegings wat fisieke welstand en koördinasie bevorder."
+                },
+                {
+                    "name": "Speelbal",
+                    "description": "Spanwerk en koördinasie deur prettige en interaktiewe sportaktiwiteite."
+                },
+                {
+                    "name": "Swem",
+                    "description": "Akwatiese avonture om fisieke fiksheid en watervertroue te verbeter."
+                },
+                {
+                    "name": "Sport",
+                    "description": "Dissipline en strategie deur die opwindende sport van rugby, krieket, sokker, ens."
+                }
+            ]
+        },
+        "intellectualCategoriesItems": [
+            {
+                "name": "Rekenaarwys",
+                "description": "Introducing jong gedagtes aan die wonders van tegnologie op 'n veilige en opvoedkundige wyse."
+            },
+            {
+                "name": "Mini Kook",
+                "description": "Kulêre ontdekking vir ontluikende sjefs, wat kreatiwiteit in die kombuis aanmoedig."
+            },
+            {
+                "name": "Mini Wiskunde",
+                "description": "Numeriese ontdekking om kognitiewe ontwikkeling en probleemoplossingsvaardighede te stimuleer."
+            },
+            {
+                "name": "Danskermuis",
+                "description": "Ritmiese uitdrukking deur dans, wat kreatiwiteit en selfvertroue bevorder."
+            }
+        ]
+    },
+    "contact": {
+        "sayHello": "Groet!",
+        "yourName": "Jou Naam",
+        "yourEmail": "Jou E-posadres",
+        "yourPhone": "Jou Telefoonnommer",
+        "yourMessage": "Jou Boodskap",
+        "nameRequired": "Naam is verpligtend",
+        "validEmail": "Voer asseblief 'n geldige e-posadres in",
+        "phoneRequired": "Telefoonnommer is verpligtend",
+        "messageRequired": "Boodskap is verpligtend",
+        "send": "Stuur",
+        "success": "Sukses",
+        "emailSent": "E-pos suksesvol gestuur",
+        "error": "Fout",
+        "emailNotSent": "E-pos is nie gestuur nie"
+    }
+}

@@ -1,0 +1,112 @@
+<div class="flex justify-center items-center min-h-screen">
+  <div class="w-full lg:w-3/4 xl:w-2/3 px-4 md:px-8 mt-24">
+    <div class="flex flex-row items-center w-full mb-8">
+      <img src="assets/images/icons/stars.svg" alt="Image Unavailable" class="mr-4" />
+      <h1 class="text-3xl md:text-5xl">{{ 'contact.sayHello' | translate }}</h1>
+    </div>
+    <div class="flex flex-col md:flex-row md:space-x-8">
+      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <div>
+          <div class="mb-4 mt-6 flex items-center">
+            <i class="pi pi-envelope mr-2 text-purple text-2xl"></i>
+            <p class="text-paragraph p-0">
+              platinumstars.chantell&commat;gmail.com
+            </p>
+          </div>
+          <div class="mb-4 flex items-center">
+            <i class="pi pi-phone mr-2 text-purple text-2xl"></i>
+            <p class="text-paragraph p-0">072 170 5937 (Chantel Ansley)</p>
+          </div>
+          <div class="mb-4 flex items-center">
+            <i class="pi pi-phone mr-2 text-purple text-2xl"></i>
+            <p class="text-paragraph p-0">014 592 6952 (Tel)</p>
+          </div>
+          <div class="mb-4 flex items-center">
+            <i class="pi pi-facebook mr-2 text-purple text-2xl"></i>
+            <p class="text-purple text-paragraph p-0">
+              <a class="pl-0"
+                href="https://www.facebook.com/p/Platinum-Stars-Sterre-Nursery-School-100042580735277/">Platinum
+                Stars</a>
+            </p>
+          </div>
+          <div class="flex items-center">
+            <i class="pi pi-map-marker mr-2 text-purple text-2xl"></i>
+            <a
+              href="https://www.google.com/maps/dir/-25.6999496,27.2404096/platinum+stars+nursery+school/@-25.6907519,27.2221681,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x1ebe096c8adc1421:0x393c5f1e43541e9a!2m2!1d27.2368246!2d-25.6884489?entry=ttu">
+              <p class="text-paragraph ml-0 p-0">
+                16 Christie de Witt, Rustenburg
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 mt-4">
+        <div>
+          <form [formGroup]="parentForm">
+            <div>
+              <div class="mb-4">
+                <label for="name" class="text-sm text-gray-600">{{ 'contact.yourName' | translate }}</label>
+                <input type="text" class="w-full h-12 border p-4 rounded" [placeholder]="'contact.yourName' | translate"
+                  formControlName="name" />
+                <ng-container *ngIf="
+                    this.parentForm.get('name')?.invalid &&
+                    (parentForm.get('name')?.dirty ||
+                      parentForm.get('name')?.touched)
+                  ">
+                  <label for="name" class="text-red text-sm">{{ 'contact.nameRequired' | translate }}</label>
+                </ng-container>
+              </div>
+              <div class="mb-4">
+                <label for="email" class="text-sm text-gray-600">{{ 'contact.yourEmail' | translate }}</label>
+                <input type="email" class="w-full h-12 border p-4 rounded" [placeholder]="'contact.yourEmail' | translate"
+                  formControlName="email" />
+                <ng-container *ngIf="
+                    this.parentForm.get('email')?.invalid &&
+                    (parentForm.get('email')?.dirty ||
+                      parentForm.get('email')?.touched)
+                  ">
+                  <label class="text-red text-sm">{{ 'contact.validEmail' | translate }}</label>
+                </ng-container>
+              </div>
+              <div class="mb-4">
+                <label for="phone" class="text-sm text-gray-600">{{ 'contact.yourPhone' | translate }}</label>
+                <input type="tel" class="w-full h-12 border p-4 rounded" [placeholder]="'contact.yourPhone' | translate"
+                  formControlName="phone" />
+                <ng-container *ngIf="
+                    this.parentForm.get('phone')?.invalid &&
+                    (parentForm.get('phone')?.dirty ||
+                      parentForm.get('phone')?.touched)
+                  ">
+                  <label class="text-red text-sm">{{ 'contact.phoneRequired' | translate }}</label>
+                </ng-container>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="text-sm text-gray-600">{{ 'contact.yourMessage' | translate }}</label>
+                <textarea class="w-full h-48 border p-4 rounded" [placeholder]="'contact.yourMessage' | translate"
+                  formControlName="message"></textarea>
+                <ng-container *ngIf="
+                    this.parentForm.get('message')?.invalid &&
+                    (parentForm.get('message')?.dirty ||
+                      parentForm.get('message')?.touched)
+                  ">
+                  <label class="text-red text-sm">{{ 'contact.messageRequired' | translate }}</label>
+                </ng-container>
+                <div class="mb-4 mt-6">
+                  <button type="submit" [disabled]="!parentForm.valid"
+                    class="w-full h-12 rounded-md text-white font-medium text-base bg-purple shadow-md hover:text-purple hover:bg-white cursor-pointer transition-colors duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-yellow-heading focus:ring-opacity-50 disabled:bg-grey disabled:cursor-not-allowed"
+                    (click)="onSubmit()">
+                    {{ 'contact.send' | translate }}
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-container *ngIf="isLoading">
+  <app-loader></app-loader>
+</ng-container>
+<p-toast position="top-right"></p-toast>

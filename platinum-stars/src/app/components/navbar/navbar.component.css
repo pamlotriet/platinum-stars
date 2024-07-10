@@ -1,0 +1,34 @@
+.activeHome::after,
+.activeAbout::after,
+.activeStaff::after,
+.activeContact::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px; 
+  width: 100%;
+  height: 2px; 
+}
+
+.activeHome::after {
+  background-color: #a5ce53;
+}
+
+.activeAbout::after {
+  background-color: #03B368;
+}
+
+.activeStaff::after {
+  background-color: #FE4C80;
+}
+
+.activeContact::after {
+  background-color: #A86F9B;
+}
+
+.activeHome,
+.activeAbout ,
+.activeStaff ,
+.activeContact{
+position: relative;
+}

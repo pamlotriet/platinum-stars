@@ -1,0 +1,13 @@
+<div class="flex flex-col justify-center items-center">
+  <div class="flex flex-col w-10/12">
+    <h1 class="text-pink mt-24 ml-16 mb-8 w-full">Meet Our Staff</h1>
+    <div class="grid">
+      <div *ngFor="let image of teachers" class="grid-item">
+        <img [src]="image.imageURL" alt="Image" class="circle-image" />
+        <h1 class="text-xl font-bold text-pink">{{ image.fullname }}</h1>
+        <h2 class="text-sm ">{{ image.role }}</h2>
+        <h2 class="text-sm ">{{ image.class }}</h2>
+      </div>
+    </div>
+  </div>
+</div>

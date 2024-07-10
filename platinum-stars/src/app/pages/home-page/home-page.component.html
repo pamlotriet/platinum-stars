@@ -1,0 +1,26 @@
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5 h-screen md:h-auto overflow-y-auto">
+  <div class="flex justify-center items-end">
+    <img class="max-h-3/4" src="assets/images/decorative/home-boy-girl.svg" alt="Image Unavailable" />
+  </div>
+  <div class="flex flex-col justify-center items-left m-6 mt-8">
+    <div class="flex flex-col justify-center items-left">
+      <h1 class="text-green">{{ "home.heading" | translate }}</h1>
+      <h2>{{ "home.subHeading" | translate }}</h2>
+    </div>
+    <div class="flex flex-col">
+      <p class="intro-paragraph">{{ "home.introParagraph" | translate }}</p>
+      <div class="flex flex-col md:flex-row mt-10">
+        <button
+          class="mr-0 md:mr-8 bg-green p-4 rounded-200px w-full md:w-48 h-14 font-bold hover:bg-white hover:border-green hover:border-2 shadow-md mb-2 md:mb-0"
+          routerLink="/about">
+          {{ "home.aboutButton" | translate}}
+        </button>
+        <button
+          class="bg-green p-4 rounded-200px w-full md:w-48 h-14 font-bold hover:bg-white hover:border-green hover:border-2 shadow-md"
+          routerLink="/contact">
+          {{ "home.contactButton" | translate }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

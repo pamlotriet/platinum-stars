@@ -1,0 +1,22 @@
+<div class="fixed w-full h-16 top-0 flex items-center justify-center p-2.5 shadow-md z-10 bg-white">
+  <div class="ml-4">
+    <img routerLink="/" src="assets/images/UpdatedLogo.svg" alt="Logo" class="h-12 hover:cursor-pointer" />
+  </div>
+  <nav class="navbar ml-auto mr-4">
+    <ul class="flex space-x-4">
+      <li>
+        <a routerLink="/" routerLinkActive="activeHome" [routerLinkActiveOptions]="{exact: true}" [class.activeHome]="!isOtherLinkActive()" class="no-underline text-green pb-2">Home</a>
+      </li>
+      <li>
+        <a routerLink="/about" routerLinkActive="activeAbout" class="no-underline text-dark-green pb-2">About</a>
+      </li>
+      <li>
+        <a routerLink="/staff" routerLinkActive="activeStaff" class="no-underline text-pink pb-2">Staff</a>
+      </li>
+      <li>
+        <a routerLink="/contact" routerLinkActive="activeContact" class="no-underline text-purple pb-2">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<router-outlet></router-outlet>

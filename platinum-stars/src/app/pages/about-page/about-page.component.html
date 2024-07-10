@@ -1,0 +1,160 @@
+<div class="grid grid-cols-2 h-auto w-screen justify-center items-center mt-40 gap-5">
+  <div class="col-span-1 flex justify-center items-center">
+    <img src="assets/images/decorative/about-boy.svg" alt="Image Unavailable" />
+  </div>
+  <div class="col-span-1 flex flex-col justify-center items-left m-6 mt-8 mr-8">
+    <div class="flex flex-col justify-center items-left">
+      <h1 class="text-dark-green">{{ "about.heading" | translate }}</h1>
+    </div>
+    <div class="flex flex-col">
+      <p class="mb-8">{{ "about.aboutInfo" | translate }}</p>
+      <div class="flex flexx-row items-center">
+        <img class="m-6" src="assets/images/decorative/icon-teachers.svg" alt="Image Unavailable" />
+        <div class="flex flex-col">
+          <h1 class="text-2xl text-dark-green">
+            {{ "about.subHeadingTeachers" | translate }}
+          </h1>
+          <p class="pt-0 pb-0">
+            {{ "about.infoTeachers" | translate }}
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <img class="m-6" src="assets/images/decorative/icon-approach.svg" alt="Image Unavailable" />
+        <div class="flex flex-col mt-8">
+          <h1 class="text-2xl text-dark-green">
+            {{ "about.subHeadingApproach" | translate }}
+          </h1>
+          <p class="pt-0 pb-0">
+            {{ "about.infoApproach" | translate }}
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <div class="flex flex-col justify-center items-left">
+          <h1 class="text-dark-green">
+            {{ "about.subHeadingAges" | translate }}
+          </h1>
+        </div>
+        <div class="flex">
+          <p class="text-paragraph">{{ "about.infoAges" | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-center items-center w-screen">
+    <img src="assets/images/decorative/background-about.svg" alt="Image Unavailable" />
+  </div>
+</div>
+
+<div class="flex justify-center items-center mb-12 mt-14">
+  <div class="grid grid-cols-2 h-auto w-10/12 justify-center items-center shadow-xl p-12 pb-0 rounded-xl">
+    <div class="col-span-1 flex flex-col justify-center items-left">
+      <h1 class="text-dark-green mb-4">
+        {{ "about.subHeadingEducation" | translate }}
+      </h1>
+      <p class="text-paragraph pt-0 text-justify">
+        {{ "about.infoEducation" | translate }}
+      </p>
+    </div>
+    <div class="flex col-span-1 items-end justify-center">
+      <img src="assets/images/icons/astro.svg" alt="Image Unavailable" />
+    </div>
+    <div class="col-span-2 mt-8">
+      <h1 class="text-dark-green mb-4">
+        {{ "about.subHeadingActivities" | translate }}
+      </h1>
+      <div class="grid grid-cols-2 gap-5">
+        <div class="col-span-1 justify-center items-center p-8">
+          <div *ngFor="let activity of socialCategories">
+            <h1 class="text-3xl text-dark-green">
+              <i class="pi pi-star-fill mr-2 text-yellow"></i>{{ activity.name }}:
+            </h1>
+            <p class="text-paragraph pt-0 pl-6">{{ activity.description }}</p>
+          </div>
+        </div>
+        <div class="col-span-1 justify-center items-center p-8">
+          <div *ngFor="let activity of intellectualCategories">
+            <h1 class="text-3xl text-dark-green">
+              <i class="pi pi-star-fill mr-2 text-yellow"></i>{{ activity.name }}:
+            </h1>
+            <p class="text-paragraph pt-0 pl-6">{{ activity.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="flex justify-center items-center w-screen">
+  <img src="assets/images/decorative/background-about.svg" alt="Image Unavailable" />
+</div>
+<div class="flex justify-center items-center">
+  <div class="flex flex-col w-10/12">
+    <h1 class="text-dark-green">{{ "about.subHeadingVision" | translate }}</h1>
+    <p class="text-paragraph">
+      {{ "about.infoVision" | translate }}
+    </p>
+    <div class="flex flex-row items-center">
+      <i class="pi pi-star-fill mr-2 text-yellow"></i>
+      <h1 class="text-2xl text-dark-green">
+        {{ "about.visionHeadingChild" | translate }}
+      </h1>
+    </div>
+    <p class="text-paragraph">
+      {{ "about.visionInfoChild" | translate }}
+    </p>
+    <div class="flex flex-row items-center">
+      <i class="pi pi-star-fill mr-2 text-yellow"></i>
+      <h1 class="text-2xl text-dark-green">
+        {{ "about.visionHeadingExcellence" | translate }}
+      </h1>
+    </div>
+    <p class="text-paragraph">
+      {{ "about.visionInfoExcellence" | translate }}
+    </p>
+    <div class="flex flex-row items-center">
+      <i class="pi pi-star-fill mr-2 text-yellow"></i>
+      <h1 class="text-2xl text-dark-green">
+        {{ "about.visionHeadingRespect" | translate }}
+      </h1>
+    </div>
+    <p class="text-paragraph">
+      {{ "about.visionInfoRespect" | translate }}
+    </p>
+  </div>
+</div>
+<div class="flex justify-center items-center w-screen">
+  <img src="assets/images/decorative/background-about.svg" alt="Image Unavailable" />
+</div>
+<div class="flex flex-col justify-center items-center mb-12 mt-4">
+  <div class="flex-col grid grid-cols-2 h-auto w-10/12 justify-center items-center shadow-xl p-12 pb-0 rounded-xl">
+    <h1 class="text-dark-green col-span-2">
+      {{ "about.missionHeading" | translate }}
+    </h1>
+    <div class="col-span-1 flex justify-center items-center">
+      <img src="assets/images/decorative/mission-man.svg" alt="Image Unavailable" />
+    </div>
+    <div class="col-span-1 flex flex-col justify-center items-left">
+      <div class="flex flex-row items-center">
+        <img src="assets/images/decorative/s.svg" alt="Image Unavailable" />
+        <p class="text-paragraph">{{ "about.StarS" | translate }}</p>
+      </div>
+      <div class="flex flex-row items-center">
+        <img src="assets/images/decorative/t.svg" alt="Image Unavailable" />
+        <p class="text-paragraph">{{ "about.StarT" | translate }}</p>
+      </div>
+      <div class="flex flex-row items-center">
+        <img src="assets/images/decorative/a.svg" alt="Image Unavailable" />
+        <p class="text-paragraph">{{ "about.StarA" | translate }}</p>
+      </div>
+      <div class="flex flex-row items-center">
+        <img src="assets/images/decorative/r.svg" alt="Image Unavailable" />
+        <p class="text-paragraph">{{ "about.StarR" | translate }}</p>
+      </div>
+      <div class="flex flex-row items-center">
+        <img src="assets/images/decorative/s.svg" alt="Image Unavailable" />
+        <p class="text-paragraph">{{ "about.StarSE" | translate }}</p>
+      </div>
+    </div>
+  </div>
+</div>

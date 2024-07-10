@@ -1,0 +1,93 @@
+{
+    "home": {
+      "heading": "WELCOME TO PLATINUM STARS",
+      "subHeading": "Nurturing Brilliance, One Little Star at a Time!",
+      "introParagraph": "Is your child ready to shine? Join us at Platinum Stars Nursery School, where we create an environment for little stars to sparkle and grow. We offer everything parents could ask for from a warm community to a playful and educational curriculum. Embark on a journey toward brilliance with us. Enroll your child today, and witness the magic of learning and play unfold!",
+      "aboutButton": "ABOUT US",
+      "contactButton": "CONTACT US"
+    },
+    "about": {
+      "heading": "ABOUT US",
+      "aboutInfo": "At Platinum Stars, we transform learning into an exhilarating adventure brimming with joy. Our nurturing environment encourages exploration through the senses, play, and captivating themed lessons. Within our spacious classrooms, vibrant outdoor play area, and with our nutritious meals, we are wholeheartedly committed to establishing a robust foundation for the growth and development of each child.",
+      "subHeadingTeachers": "Experienced Teachers",
+      "infoTeachers": "Our experienced teachers and skilled assistants, all certified in first aid, prioritize the safety and enjoyment of your child. With a wealth of expertise, our team creates a nurturing environment where your \"star\" not only flourishes but also discovers the joy of learning.",
+      "subHeadingApproach": "Unique Approach",
+      "infoApproach": "Our teachers bring a unique touch to education. Their approach combines tailored lessons with creative exploration, inspiring curiosity and critical thinking. This ensures each child not only excels academically but also develops essential skills for a successful future.",
+      "subHeadingAges": "Ages",
+      "infoAges": "We take children from 4 months to 5 years.",
+      "subHeadingEducation": "Our Education",
+      "infoEducation": "Explore the exciting world of learning at Platinum Stars Nursery School! We proudly follow the ELDA curriculum, ensuring that our dedicated teachers are well-equipped with the latest training to deliver engaging and enriching lessons. Our curriculum features theme-based learning, covering numeracy, gross motor skills, fine motor skills, music and movement, as well as theme discussions and creative activities. Each week, we dive into captivating themes such as Farm Animals, Sea Life, Colours, Shapes, Senses, and more! Additionally, our curriculum extends beyond the classroom with regular outings and in-house visits that align with the thematic focus, providing a well-rounded and immersive educational experience for your child.",
+      "subHeadingActivities": "Our Activities",
+      "subHeadingVision": "Our Vision",
+      "infoVision": "At Platinum Sterre, we hold dear the values that make a profound difference in the lives of our children. Our vision is to illuminate the path of every child's journey by nurturing their unique brilliance, ensuring that each one shines as brightly as a star.",
+      "visionHeadingChild": "Child-Centered Approach",
+      "visionInfoChild": "Our vision revolves around cherishing the individuality of each child, recognizing their innate potential, and tailoring our approach to meet their specific needs and aspirations. We aim to create an environment where every child feels valued, understood, and empowered to reach for the stars. Safety and Security: Within our vision lies a commitment to providing a safe and secure haven where children can thrive, explore, and discover without hesitation. We envision a nurturing space where their well-being is safeguarded, allowing them to blossom into confident and resilient individuals.",
+      "visionHeadingExcellence": "Excellence in Education",
+      "visionInfoExcellence": "Central to our vision is the pursuit of excellence in education. We aspire to ignite a passion for learning, creativity, and innovation in every child, laying the groundwork for academic achievement and personal fulfillment. Our aim is to cultivate a culture of curiosity and discovery that inspires lifelong learning.",
+      "visionHeadingRespect": "Respect and Diversity",
+      "visionInfoRespect": "Within our vision, we celebrate diversity and foster an atmosphere of inclusivity and respect. We envision a vibrant community where children from all backgrounds feel welcomed, accepted, and valued for who they are. By embracing diversity, we aim to cultivate empathy, understanding, and global citizenship in our young stars. Through our unwavering commitment to these values, we envision Platinum Sterre as a beacon of light, guiding each child towards a future filled with promise, purpose, and possibility.",
+      "missionHeading": "Our Mission",
+      "StarS": "To provide quality SERVICE at all time",
+      "StarT": "Committed to TEACHING and educating our children to the best of our ability",
+      "StarA": "ALWAYS provide thorough care and support",
+      "StarR": "REACHING out with love by example",
+      "StarSE": "STRIVING to build a Christian foundation for our children’s future.",
+      "socialCategories": {
+        "subHeadingKinder": "Kinderkinetika",
+        "infoKinder": "Energetic movements that promote physical well-being and coordination.",
+        "items": [
+          {
+            "name": "Kinderkinetika",
+            "description": "Energetic movements that promote physical well-being and coordination."
+          },
+          {
+            "name": "Playball",
+            "description": "Teamwork and coordination through fun and interactive sports activities."
+          },
+          {
+            "name": "Swimming",
+            "description": "Aquatic adventures to enhance physical fitness and water confidence."
+          },
+          {
+            "name": "Sports",
+            "description": "Discipline and strategy through the exciting sport of rugby, cricket, soccer, etc."
+          }
+        ]
+      },
+      "intellectualCategoriesItems": [
+        {
+          "name": "Compuwize",
+          "description": "Introducing young minds to the wonders of technology in a safe and educational manner."
+        },
+        {
+          "name": "Mini Cooks",
+          "description": "Culinary exploration for budding chefs, encouraging creativity in the kitchen."
+        },
+        {
+          "name": "Mini Maths",
+          "description": "Numerical exploration to stimulate cognitive development and problem-solving skills."
+        },
+        {
+          "name": "Dance Mouse",
+          "description": "Rhythmic expression through dance, promoting creativity and confidence."
+        }
+      ]
+    },
+    "contact": {
+        "sayHello": "Say Hello!",
+        "yourName": "Your Name",
+        "yourEmail": "Your Email Address",
+        "yourPhone": "Your Phone Number",
+        "yourMessage": "Your Message",
+        "nameRequired": "Name is required",
+        "validEmail": "Please enter a valid email address",
+        "phoneRequired": "Phone number is required",
+        "messageRequired": "Message is required",
+        "send": "Send",
+        "success": "Success",
+        "emailSent": "Email sent successfully",
+        "error": "Error",
+        "emailNotSent": "Email was not sent"
+    }
+  }
+  
