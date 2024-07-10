@@ -22,9 +22,8 @@ This project is an improved website for a nursery school. It showcases the schoo
 ## Installation
 
 ### Prerequisites
-- Node.js (>=14.x)
-- Angular CLI (>=12.x)
-- Azure account for Blob Storage
+- Node.js (=18.x)
+- Angular CLI (>=18.x)
 
 ### Steps
 1. Clone the repository:
