@@ -30,13 +30,12 @@ This project is an improved website for a nursery school. It showcases the schoo
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/nursery-school-website.git
-2.
-```bash
+2. Change directory:
+   ```bash
    cd platinum-stars
-```
-3. ```bash
+3. Install node modules
+   ```bash
    npm install
-```
-4. ```bash
-   cd platinum-stars
-```
+4. Start the server
+   ```bash
+   ng serve
