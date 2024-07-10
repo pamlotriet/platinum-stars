@@ -39,3 +39,39 @@ This project is an improved website for a nursery school. It showcases the schoo
 4. Start the server
    ```bash
    ng serve
+
+## Usage
+### Development Server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+### Build
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.
+
+## Configuration
+
+### Prettier and ESLint
+1. This project uses Prettier and ESLint for code formatting and linting. To use these tools:
+2. Ensure you have the necessary configuration files (.prettierrc, .eslintrc.json, etc.) in the project directory.
+Run Prettier to format your code:
+   ```bash
+   npm run prettier
+3. Run ESLint to lint your code:
+   ```bash
+   ng lint
+
+## Technologies Used
+- Angular
+- Tailwind CSS
+- PrimeNG
+- PrimeIcons
+- TypeScript
+- HTML5 & CSS3
+- Prettier
+- ESLint
+
+## Contact
+For any inquiries or feedback, please contact:
+
+- Name:Pamela Lotriet
+- Email: pamela.lotriet@gmail.com
+- GitHub: pamlotriet
